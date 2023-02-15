@@ -1,0 +1,7 @@
+#Lab3: A function that will write a text file to your PC with your name.
+
+def create_file_with_name(name):
+
+    with open(f"{name}.txt", "w") as file:
+    
+        file.write(name)
