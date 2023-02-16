@@ -5,3 +5,9 @@ def create_file_with_name(name):
     with open(f"{name}.txt", "w") as file:
     
         file.write(name)
+
+def helloWorld():
+	print('Hello World')
+
+
+helloWorld()
